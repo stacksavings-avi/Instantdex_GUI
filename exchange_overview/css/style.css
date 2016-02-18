@@ -1,0 +1,93 @@
+*{
+	text-decoration: none;
+}
+
+body{
+	margin: 0px;
+	padding: 0px;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+header{
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+section>*{
+	margin-top: 0;
+	margin-bottom: 10px;
+	height: auto;
+	position: relative;
+}
+
+.float-right{
+	float: right;
+}
+
+
+fieldset {
+    margin: 2px;
+    border: 1px solid silver;
+    padding: 0px;
+    border-radius: 4px;
+    background: transparent;
+}
+.col-md-3:hover,fieldset:hover{
+	background: #ffb777;
+	cursor: pointer;
+}
+
+.float-right{
+	display: flex;
+	justify-content: flex-end;
+}
+
+
+
+legend{
+    padding: 2px;   
+    margin-bottom: 5px;
+}
+
+table{
+
+}
+
+aside>*, main>*{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+
+fieldset.scheduler-border {
+    border: 1px groove #ddd !important;
+    padding: 2px !important;
+    margin: 4px !important;
+    -webkit-box-shadow:  0px 0px 0px 0px #000;
+            box-shadow:  0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    width:inherit; /* Or auto */
+    padding:0 10px; /* To give a bit of padding on the left and right */
+    border-bottom:none;
+}
+
+.control-group{
+	border-style: none;
+	padding: 5px;
+}
+
+table tr:nth-child(odd){
+	background: #fff;
+	opacity: 9;
+}
+
+table tr:nth-child(even){
+	background: #aaa;
+	opacity: 9;
+}
