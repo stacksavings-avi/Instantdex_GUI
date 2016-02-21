@@ -5,8 +5,8 @@ var Instandex = angular.module('InstandexApp', [
     .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
         $urlRouterProvider.otherwise('/coin_exchange');
         
-        $stateProvider.state('index', {
-            url: '/index',
+        $stateProvider.state('consolidate_coins', {
+            url: '/consolidate_coins',
             templateUrl: 'views/consolidate_coins.html'
         })
         .state('coin_exchange', {

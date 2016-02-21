@@ -7738,3 +7738,10 @@ ul.events-list-bottom {
   .resources-icon.emails {
     height: 200px;
     width: 200px; }
+    
+
+.logo-container{
+  height: 100%;
+  width: 200px;
+  float: left;
+}
