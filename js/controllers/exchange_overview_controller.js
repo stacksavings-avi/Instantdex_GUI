@@ -1,5 +1,5 @@
 'use strict';
 
-Instandex.controller('ExchangeOverviewController', function($scope, $state){
+Instantdex.controller('ExchangeOverviewController', function($scope, $state){
      
 });

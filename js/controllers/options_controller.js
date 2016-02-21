@@ -1,5 +1,5 @@
 'use strict';
 
-Instandex.controller('OptionsController', function($scope, $state){
+Instantdex.controller('OptionsController', function($scope, $state){
      
 });

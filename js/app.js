@@ -1,6 +1,6 @@
 'use strict';
 
-var Instandex = angular.module('InstandexApp', [
+var Instantdex = angular.module('InstandexApp', [
     'ui.router', 'ngAnimate'])
     .config(['$stateProvider', '$urlRouterProvider', function($stateProvider, $urlRouterProvider){
         $urlRouterProvider.otherwise('/coin_exchange');
